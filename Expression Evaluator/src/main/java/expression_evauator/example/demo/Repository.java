@@ -1,4 +1,6 @@
 package expression_evauator.example.demo;
 
-public class Repository {
+@Repository
+public interface Repository extends JpaRepository<Expression,Integer> {
 }
+
